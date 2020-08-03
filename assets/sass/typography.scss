@@ -1,7 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 @import './base.scss';
+
+
+@font-face {
+    font-family: Futura;
+    src: url('../futura/FuturaPTLight.otf');
+  }
+
 
 .headline-text {
     // font-family: 'Playfair Display', serif;
@@ -9,7 +16,14 @@
     font-size: 2rem;
     color: $headline;
     margin: 10px 0;
+    position: relative;
+}
 
+.subHeader {
+    font-family: 'Pacifico', cursive;
+    font-size: 1.5rem;
+    color: $headline;
+    margin: 10px 0;
 }
 
 .subtext {
