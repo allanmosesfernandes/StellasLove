@@ -1,8 +1,10 @@
 import Typed from 'typed.js';
 
 var options = {
-    strings: ['<i>First</i> sentence.', '&amp; a second sentence.'],
-    typeSpeed: 40
+    strings: ['desserts 🍮', 'snacks 🥙','home-made cakes 🎂'],
+    typeSpeed: 40,
+    loop: true,
+    backSpeed: 50,
   };
 
 var typed = new Typed('.element', options);

@@ -3,7 +3,7 @@
 
 
 .hero {
-    padding: 60px 30px;
+    padding: 30px 30px 60px 30px;
     .headline-text ::after {
         position: absolute;
         content: '';
@@ -14,10 +14,13 @@
 }
 
 nav {
-    background-color: $pinky;
+    // background-color: $pinky;
+    background-color: #fde24fe0;
+    border-bottom: 2px solid;
     width: 100%;
-    height: 10vh;
     display: flex;
+    padding: 0 20px;
+
     // position: fixed;
     // top: 0;
     // left: 0;
@@ -27,7 +30,7 @@ nav {
     .logo {
         width: 75px;
         height: 100%;
-        margin: auto;
+    /* margin: auto; */
     }
 }
 
