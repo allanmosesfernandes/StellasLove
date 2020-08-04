@@ -50,7 +50,7 @@
     }
 
     img {
-        width: 40px;
+        width: 50px;
         margin-right: 5px;
     }
 }
@@ -76,6 +76,13 @@
 .follow-on {
     display: flex;
     align-items: center;
+
+
+    a {
+        display: flex;
+        color: inherit;
+        margin: 10px 0;
+    }
 }
 
 .place-order {
@@ -128,7 +135,7 @@
     align-items: center;
 
     .contact-box {
-        background: #ff5470b0;
+        background: $button;
         padding: 10px 20px;
         border-radius: 20px;
         font-size: 1.2rem;
@@ -143,6 +150,8 @@
             align-items: center;
             text-decoration: none;
             color: inherit;
+            font-weight: 700;
+
         }
     }
 }
@@ -168,5 +177,18 @@
         text-decoration: none;
         font-size: 1.2rem;
         text-decoration: underline;
+        font-family: Futura;
+
     }
+}
+
+
+.fssai-sec {
+    display: flex;
+    align-items: center;
+    margin: 50px 0;
+    justify-content: center;
+}
+.fssai {
+    width: 100px;
 }

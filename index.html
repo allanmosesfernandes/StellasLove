@@ -14,11 +14,9 @@
 
 <body>
 
-    <header>
         <nav>
             <img class="logo" src="./assets/images/Stella'sLove-PNG-(black).png">
         </nav>
-    </header>
 
     <section class="hero" >
         <h1 class="headline-text">Stella's Love - <br>A Kitchen With A Twist</h1>
@@ -27,7 +25,6 @@
             People of Mumbai know a good thing when they see it and they fall in love with a good thing when they taste
             it. 
             <br>
-    strings: ['homemade cakes','desserts', 'snacks'],
             That’s why we have taken our catering services beyond the kitchen. We are known for <span class="element bold"></span> <br>We pride ourselves on baking everything with ❤️️ and using the <span class="bold">best ingredients.</span>
 
         </p>
@@ -38,7 +35,7 @@
         </div>
     </section>
 
-    <section class="ourStory" data-aos="fade-up">
+    <section class="ourStory">
         <h1 class="headline-text">Our Story</h1>
         <div class="pattern-dots-md gray-light">
             <img style="transform:translate(24px, -17px);" src="./assets/images/story.jpg"/>
@@ -52,22 +49,27 @@
 
 
     <section class="safety">
-        <div class="pattern-diagonal-lines-md pd-30" data-aos="fade-right">
+        <div class="pattern-diagonal-lines-md pd-30">
         <h1 class="headline-text">Safe & Hygienic</h1>
         <!-- <img class="ulta-cat" src="./assets/images/ulta-cat.png"> -->
         <span class="boldie">Your Safety - Our Priority</span>
         <p class="subtext">      
             We work tirelessly to find new ways to improve your experience, keep you safe and bring you peace of mind.
+
         </p>
 
-        <img class="cat-btm" src="./assets/images/catsup.png">
+        <div class="fssai-sec">
+            <img src="./assets/images/fssai.png" class="fssai" />
+
+        </div>
+        <!-- <img class="cat-btm" src="./assets/images/catsup.png"> -->
 
         </div>
 
     </section>
 
     <section class="fresh-baked" 
-    style = "background-image: url(./assets/images/123.jpg);" data-aos="fade-left">
+    style = "background-image: url(./assets/images/123.jpg);">
         <p class="subtext">
             Freshly baked goodies,handmade with love. Shipped right to your door.
         </p>
@@ -75,11 +77,14 @@
         <a class="abutton" href="#">Menu</a>
     </section>
 
-    <section class="instagram pattern-diagonal-stripes-sm
-    " data-aos="flip-up">
+    <section class="instagram pattern-diagonal-stripes-sm">
        <p class="subtext">
         follow us on instagram <br> 
-        <span class="follow-on"><img src="./assets/images/instagram.png">stellas_love</span>
+        <span class="follow-on"><a href="https://www.instagram.com/stellas_love/">
+            <img src="./assets/images/instagram.png">stellas_love
+
+        </a>
+        </span>
        </p> 
 
        <div class="instagram-grid">
@@ -113,21 +118,21 @@
         <div class="call-me">
             <div class="contact-box">
                 <a onclick="window.open('tel:+91 9967027171');">
-                    <img src='./assets/images/phoner.png'> 
+                    <img src='./assets/images/kala.svg'> 
                     +91 9967027171
                 </a>
             </div>
 
             <div class="contact-box">
                 <a onclick="window.open('tel:9767715333');">
-                    <img src='./assets/images/phoner.png'> 
+                    <img src='./assets/images/kala.svg'> 
                     +91 9767715333
                 </a>
             </div>
                  
             <div class="contact-box" style="padding: 10px 40px;">
                 <a href="https://wa.link/redw4q">
-                    <img src='./assets/images/whatsapp (4).png'> 
+                    <img src='./assets/images/whatsapp.svg'> 
                     Whatsapp 
                 </a>
             </div>
@@ -147,9 +152,9 @@
 
     <script src="./main.js"></script>
 	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-	<script>
+	<!-- <script>
 		AOS.init();
-	</script>
+	</script> -->
 </body>
 
 </html>
